@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Mon blog</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand bg-dark navbar-dark">
+    <nav class="navbar navbar-expand bg-dark navbar-dark fixed">
         <div class="navbar-fluid">
-            <h3 class="navbar-text text-center ms-3"><a href="#" style="text-decoration: none;">Mon blog</a></h3>
+            <h3 class="navbar-text text-center ms-3 title"><a href="#" style="text-decoration: none;">Mon blog</a></h3>
         </div>
         <a href="http://" style="margin-left:70%;"><img src="images/grace (2).jpg" height="70px" style="border-radius: 100% " alt=""></a>
     </nav>
@@ -17,15 +18,15 @@
         <img src="images/image4.jpeg" style="width: 100%; height:400px"/>
     </div>
     <br>
-    <h2 class="text-center">Bienvenue à mon Blog composé de multiples articles sur l'intelligence artificielle</h2>
+    <h2 class="text-center" style="font-size: 12px;">Bienvenue à mon Blog composé de multiples articles sur l'intelligence artificielle</h2>
     <br>
     <br>
-    <div class="row p-4">
+    <div class="row p-4" id="colonne" >
 
-    <div class="col-4">
+    <div class="col-4 " >
 
         <div class="justify-content-center" style="margin:5px auto">
-            <div class="card" style="width:400px">
+            <div class="card" style="width:300px" id="col1">
                 <div class="card-header">
                     <img  class="card-img-top" src="images/image2.jpeg" alt="">
                     <h4 class="card-title">l'intelligence artificielle générale </h4>
@@ -38,58 +39,68 @@
                          appel à la neurologie computationnelle et à la logique mathématique.
                          les applications de l'IA incluent notament <strong>moteurs de recherche</strong>,
                          <strong>système de recommandations</strong> et <strong>langage naturel</strong>
-    
+                         Souvent classée dans le groupe des mathématiques et des sciences cognitives, 
+                         elle fait appel à la neurobiologie computationnelle (particulièrement aux réseaux neuronaux)
+                         L'intelligence artificielle (IA) est de plus en plus exploitée dans le domaine du cybercrime, comme le révèle une étude de la société 
+                         spécialisée en cybersécurité SlashNext. Cette tendance croissante à l'utilisation de l'IA ....
+
+
                     </p>
-                    <a class="btn btn-primary" href=""> En savoir plus</a>
+                    <a class="btn btn-primary" href="https://fr.wikipedia.org/wiki/Intelligence_artificielle"> En savoir plus</a>
                 </div>
             </div>
         </div>    
     </div>
-    <div class="col-4">
+    <div class="col-4" >
 
         <div class="justify-content-center" style="margin:5px auto">
-            <div class="card" style="width:400px">
+            <div class="card" style="width:300px" id="col2">
                 <div class="card-header">
                     <img  class="card-img-top" src="images/image1.jpeg" alt="">
-                    <h4 class="card-title">l'intelligence artificielle générale </h4>
+                    <h4 class="card-title">Les applications de l'intelligence artificielle </h4>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">L'intelligence artificielle (IA) est un ensemble de théories
-                         et de techniques visant à réaliser des macines capables de simuler l'intelligence humaine
-                        
-                         Souvent classée dans le groupe des mathématiques et des sciences cognitives.elle fait
-                         appel à la neurologie computationnelle et à la logique mathématique.
-                         les applications de l'IA incluent notament <strong>moteurs de recherche</strong>,
-                         <strong>système de recommandations</strong> et <strong>langage naturel</strong>
-    
+                    <p class="card-text">
+                        Les applications de l'IA incluent notamment moteurs de recherche, systèmes de recommandation, 
+                        compréhension du langage naturel, voitures autonomes, chatbots, outils 
+                        de génération d'images, outils de prise de décision automatisée 
+                        et programmes compétitifs dans des jeux de stratégie3.
+                        Ses finalités et enjeux ainsi que son développement suscitent,
+                         depuis l'apparition du concept, de nombreuses interprétations,
+                          fantasmes ou inquiétudes s'exprimant tant dans les récits ou 
+                        films de science-fiction que dans les essais philosophiques4. 
+                        Si des outils relevant d'intelligences artificielles spécialisées ou 
+                        génératives ont fait leurs preuves, la réalité semble 
+                        encore tenir l'intelligence artificielle généraliste
+                        loin des performances du vivant dans toutes ses aptitudes naturelles5.
                     </p>
-                    <a class="btn btn-primary" href=""> En savoir plus</a>
+                    <a class="btn btn-primary" href="https://fr.wikipedia.org/wiki/Intelligence_artificielle"> En savoir plus</a>
                 </div>
             </div>
         </div>    
     </div>
 
-    <div class="col-4">
+    <div class="col-4" id="col3">
 
         <div class="justify-content-center" style="margin:5px auto">
-            <div class="card" style="width:400px">
+            <div class="card" style="width:300px" id="col3">
                 <div class="card-header">
                     <img  class="card-img-top" src="images/image3.jpeg" alt="">
-                    <h4 class="card-title">l'intelligence artificielle générale </h4>
+                    <h4 class="card-title">Définition étymologique de l'intelligence artificielle </h4>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">L'intelligence artificielle (IA) est un ensemble de théories
-                         et de techniques visant à réaliser des macines capables de simuler l'intelligence humaine
-                        
-                         Souvent classée dans le groupe des mathématiques et des sciences cognitives.elle fait
-                         appel à la neurologie computationnelle et à la logique mathématique.
-                         les applications de l'IA incluent notament <strong>moteurs de recherche</strong>,
-                         <strong>système de recommandations</strong> et <strong>langage naturel</strong>
+                    <p class="card-text">
+                        Le terme « intelligence artificielle », créé par John McCarthy, est souvent abrégé par le sigle « IA » (ou « AI » en anglais, pour artificial intelligence). McCarthy définit l'IA
+                         ainsi : « C'est la science et l'ingénierie de la fabrication de machines intelligentes, en particulier de programmes informatiques intelligents. Elle est liée à la tâche similaire 
+                         qui consiste à utiliser des ordinateurs pour comprendre l'intelligence humaine, mais l'IA ne doit pas se limiter aux méthodes qui sont biologiquement observables6. »
+
+                    Elle est également définie par l’un de ses créateurs, Marvin Lee Minsky, comme « la construction de programmes informatiques qui s’adonnent à des tâches qui sont, pour l’instant, accomplies de façon plus
+                    satisfaisante par des êtres humains car elles demandent des processus mentaux de haut niveau tels que : l’apprentissage perceptuel, l’organisation de la mémoire et le raisonnement critique »a,7
     
                     </p>
 
 
-                    <a class="btn btn-primary" href=""> En savoir plus</a>
+                    <a class="btn btn-primary" href="https://fr.wikipedia.org/wiki/Intelligence_artificielle"> En savoir plus</a>
                 </div>
             </div>
         </div>    
@@ -108,18 +119,18 @@
        
 
 <footer id="contact">
-    <div style="background-color: rgb(31, 31, 70); height: 150px;">
-        <div class="row">
-            <div class="col-6">
+    <div style="background-color: rgb(31, 31, 70); height: 150px; width: 100%;">
+        <div class="row " style="width:100%">
+            <div class="col-6 contacts">
                 <div style="margin-top:10px; margin-left: 20px;">
                     <h5 style="color: white;">Contacts</h5>
-                    <span style="color:white"><strong>Whatsapp</strong>:+242 06 945 23 95</span><br>
+                    <span style="color:white"><strong>Whatsapp</strong>:069452395</span><br>
                     <span style="color:white"><strong>Email</strong>:gracemabiala839@gmail.com</span><br>
                     <span style="color:white"><strong>Facebook</strong>:Grace mabiala</span>
                 </div>
             </div>
             
-            <div class="col-6 ">
+            <div class="col-6 etudiant">
                <p style="color: white;" class="mt-4">Etudiant chercheur en mathématique Appliquée <a href="http://">UDSN</a> Licence 2</p>
             </div>
         </div>
